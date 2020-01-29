@@ -8,6 +8,7 @@ html, body{
     background-color: #b2c2c0;
     width: 960px;
     height: 95%;
+    opacity: 0.9;
     
 }
 
@@ -15,7 +16,7 @@ button{
     display:block;
     width:50%;
     height:20%;
-    margin: 0 auto;
+    margin: 10px auto;
     cursor: pointer;
     background: rgb(206, 212, 219);
     font-size: 42px;;

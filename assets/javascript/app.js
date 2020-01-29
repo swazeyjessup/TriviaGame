@@ -142,8 +142,7 @@ var game = {
     answeredIncorrectly: function() {
         game.incorrect++;
         clearInterval(timer);
-        panel.html('<h2>Nope!</h2>');
-        panel.html('<h3>The Correct Answer was: ' + questions[game.currentQuestion].correctAnswer + '</h3>');
+        panel.html('<h3>Sorry! The Correct Answer was: ' + questions[game.currentQuestion].correctAnswer + '</h3>');
         panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
     
         if (game.currentQuestion === questions.length - 1){
