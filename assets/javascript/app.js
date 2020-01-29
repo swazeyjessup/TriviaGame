@@ -54,8 +54,8 @@ var questions = [{
     image: "assets/images/aladdin.gif" 
 }, {
     question: "How many brothers does Hans of the Southern Isles have?",
-    answers: ["0", "4", "8", "12"],
-    correctAnswer: "12",
+    answers: ["Zero", "Four", "Eight", "Twelve"],
+    correctAnswer: "Twelve",
     image: "assets/images/frozen.gif" 
 }, {
     question: "What is Mulan's male name?",
@@ -87,6 +87,7 @@ var game = {
         }
     },
 
+    
 
     loadQuestion: function(){
         timer = setInterval(game.countdown, 1000);
@@ -163,6 +164,7 @@ var game = {
           setTimeout(game.nextQuestion, 3 * 1000);
         }
       },
+
 
     reset: function(){
         this.currentQuestion = 0;
